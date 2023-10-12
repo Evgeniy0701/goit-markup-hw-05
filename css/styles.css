@@ -663,7 +663,7 @@ img {
 .social-media-icon:focus {
   background-color: #4d5ae5;
 }
-/*------------Subscribe-----*/
+/*------------Subscribe FOOTER-----*/
 .text-form {
   margin-bottom: 16px;
   font-weight: 500;
@@ -687,7 +687,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: #ffffff;
 }
