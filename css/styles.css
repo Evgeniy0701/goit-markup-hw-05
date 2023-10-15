@@ -784,7 +784,7 @@ img {
   fill: #ffffff;
 }
 
-svg {
+.custom-svg-class {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -915,6 +915,7 @@ svg {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 90px;
 }
 
 .custom-class-button:hover
@@ -927,6 +928,7 @@ svg {
 .custom-class-button:focus .custom-svg-class use {
   fill: #ffffff;
 }
+
 
 /*-----------------------PORTFOLIO MENU------------------*/
 .link-menu {
