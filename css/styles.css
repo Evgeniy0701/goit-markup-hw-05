@@ -896,18 +896,18 @@ img {
   background-color: var(--custom-checked-background-color);
 }
 
-.custom-input-class:checked .custom-label-class {
-  background-color: #404bbf;
-  border: none;
-  fill: #F4F4FD;
-}
-
 .custom-label-privacy .custom-span-svg {
   fill: #F4F4F4;
 }
 
 .custom-label-privacy input[type="checkbox"]:checked .custom-span-privacy .custom-span-svg {
   fill: var(--custom-checked-icon-color); 
+}
+
+.custom-span-privacy:checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
 }
 
 .class-custom-text{
