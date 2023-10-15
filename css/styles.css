@@ -862,6 +862,10 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.custom-comment-text:focus {
+  border-color: #4D5AE5;
+}
+
 .container-input-checkbox {
   margin-bottom: 24px;
 }
@@ -890,6 +894,12 @@ img {
 }
 .custom-label-privacy input[type="checkbox"]:checked .custom-span-privacy {
   background-color: var(--custom-checked-background-color);
+}
+
+.custom-input-class:checked .custom-label-class {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
 }
 
 .custom-label-privacy .custom-span-svg {
