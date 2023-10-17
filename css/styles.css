@@ -930,8 +930,7 @@ img {
   margin-left: 90px;
 }
 
-.custom-class-button:hover
-.custom-class-button:focus {
+.custom-button-class:hover, .custom-button-class:focus {
   background-color: #404bbf;
   border: none;
 }
