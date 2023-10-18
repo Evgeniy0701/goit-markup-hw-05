@@ -907,19 +907,11 @@ img {
 }
 
 
-.custom-input-class:checked + .custom-span-privacy {
+.custom-input-class:checked + .custom-label-privacy .custom-span-privacy {
   background-color: #404bbf;
-}
-
-.custom-input-class:checked +  .custom-span-privacy {
+  fill: #F4F4FD;
   border: none;
 }
-
-.custom-input-class:checked + .custom-span-privacy {
-  fill: #F4F4FD;
-}
-
-
 
 .class-custom-text{
   color:#4d5ae5
