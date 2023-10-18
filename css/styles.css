@@ -896,19 +896,29 @@ img {
   background-color: var(--custom-checked-background-color);
 }
 
-.custom-label-privacy .custom-span-svg {
-  fill: #F4F4F4;
-}
-
 .custom-label-privacy input[type="checkbox"]:checked .custom-span-privacy .custom-span-svg {
   fill: var(--custom-checked-icon-color); 
 }
 
-.custom-span-privacy:checked {
+.custom-input-class:checked .custom-label-privacy .custom-span-privacy {
   background-color: #404bbf;
+}
+
+.custom-input-class:focus + .container-input-icon .custom-svg-class use {
+  fill: #4D5AE5;
+}
+
+.custom-input-class:checked  .custom-label-privacy .custom-span-privacy {
   border: none;
+}
+
+.custom-input-class:checked .custom-label-privacy .custom-span-privacy .custom-span-svg use {
   fill: #F4F4FD;
 }
+.custom-input-class:checked + .container-input-icon .custom-svg-class use {
+  fill: unset;
+}
+
 
 .class-custom-text{
   color:#4d5ae5
